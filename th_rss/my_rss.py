@@ -12,7 +12,7 @@ class ServiceRss(ServicesMgr):
 
     def process_data(self, obj_id):
         # call the model
-        from django_th.models.rss import Rss
+        from th_rss.models import Rss
         # call the cache
         from django.core.cache import get_cache
 
