@@ -14,7 +14,7 @@ install_requires = reqs('requirements.txt')
 setup(
     name='django_th_rss',
     version=version,
-    description='Django Trigger Happy : Service RSS to handle RSS/ATOM Feeds
+    description='Django Trigger Happy : Service RSS to handle RSS/ATOM Feeds\
     and put those datas in the appropriate service of your choice',
     author='Olivier Demah',
     author_email='olivier@foxmask.info',
