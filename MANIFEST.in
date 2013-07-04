@@ -1,0 +1,2 @@
+exclude th_rss/local_settings.py
+include *.txt

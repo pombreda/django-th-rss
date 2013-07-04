@@ -1,0 +1,3 @@
+feedparser==5.1.3
+httplib2==0.8
+South==0.7.6
