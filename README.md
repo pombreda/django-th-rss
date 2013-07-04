@@ -45,13 +45,13 @@ TH_SERVICES = (
 )
 ```
 
-Wizard Template :
-
-#### TH_WIZARD_TPL
+#### Wizard Template TH_WIZARD_TPL
+```python
 TH_WIZARD_TPL = {
     'my_rss':
     'my_rss/rss-form.html',
 }
+```
 
 
 
