@@ -35,6 +35,12 @@ Important parts are the settings of the available services :
 
 add the module th_rss to INSTALLED_APPS
 
+```python
+INSTALLED_APPS = (
+    'th_rss',
+)
+```
+
 #### TH_SERVICES 
 
 TH_SERVICES is a list of the services we put in django_th/services directory
