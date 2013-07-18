@@ -1,4 +1,4 @@
 exclude th_rss/local_settings.py
-include *.txt
+include *.txt *.rst
 recursive-include th_rss *.html
 recursive-include th_rss/templates *
