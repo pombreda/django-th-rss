@@ -10,14 +10,18 @@ logger = getLogger('django_th.trigger_happy')
 
 class ServiceRss(ServicesMgr):
 
-    def process_data(self, obj_id):
+    def process_data(self, **kwargs):
         # call the model
         from th_rss.models import Rss
         # call the cache
         from django.core.cache import get_cache
 
+        trigger_id = 0
+        if 'trigger_id' in kwargs:
+            trigger_id = kwargs['trigger_id']
+
         # get the URL from the trigger id
-        rss = Rss.objects.get(id=obj_id)
+        rss = Rss.objects.get(id=trigger_id)
         self.name = rss.name
 
         logger.debug("RSS Feeds from %s : url %s", self.name, rss.url)
