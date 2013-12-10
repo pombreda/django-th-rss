@@ -10,7 +10,7 @@ logger = getLogger('django_th.trigger_happy')
 
 class ServiceRss(ServicesMgr):
 
-    def process_data(self, trigger_id):
+    def process_data(self, token, trigger_id, date_triggered):
         # call the model
         from th_rss.models import Rss
         # call the cache
