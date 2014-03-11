@@ -2,12 +2,12 @@
 Django Trigger Happy : Service RSS
 ==================================
 
-This service provide a way to get the RSS/ATOM Feeds that will be automatically
+This service provides a way to get the RSS/ATOM Feeds that will be automatically
 created in the service of your choice from Trigger Happy
 
 Requirements :
 ==============
-* django_th: 0.8.1
+* django_th: 0.8.3
 * feedparser: 5.1.3
 * httplib2: 0.8
 * PyTidylib : 0.2.1

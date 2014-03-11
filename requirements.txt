@@ -1,4 +1,4 @@
-django_th==0.8.2
+django_th==0.8.3
 feedparser==5.1.3
 httplib2==0.8
 PyTidylib== 0.2.1
