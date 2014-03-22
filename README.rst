@@ -7,10 +7,10 @@ created in the service of your choice from Trigger Happy
 
 Requirements :
 ==============
-* django_th: 0.8.3
+* django_th: 0.9.0
 * feedparser: 5.1.3
 * httplib2: 0.8
-* PyTidylib : 0.2.1
+* pytidylib6: 0.2.2
 
 
 Installation:
