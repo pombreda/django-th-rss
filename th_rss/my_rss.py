@@ -1,10 +1,9 @@
 # -*- coding: utf-8 -*-
-# django classes
-from django.utils.log import getLogger
-
 # django_th classes
 from django_th.services.services import ServicesMgr
 from th_rss.lib.feedsservice import Feeds
+# django classes
+from django.utils.log import getLogger
 
 logger = getLogger('django_th.trigger_happy')
 
@@ -29,11 +28,11 @@ class ServiceRss(ServicesMgr):
         if 'rss' in parms:
             # cache rss backend + parms
             cache = get_cache('rss', **parms)
-            # data from the cache
+            # datas from the cache
             self.data = cache.get(self.name)
         # data not in cache or expiried
         if self.data is None or len(self.data) == 0:
-            # retrieve the data
+            # retreive the data
             feeds = Feeds(**{'url_to_parse': rss.url}).datas()
             # put in cache
             if 'rss' in parms:
