@@ -1,1 +1,1 @@
-from feedsservice import Feeds
+from .feedsservice import Feeds
