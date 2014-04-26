@@ -2,7 +2,7 @@
 RSS Connector
 =============
 
-This connector get RSS/ATOM Feeds that will be automatically sent to your internet service from Trigger Happy
+From Trigger Happy, this connector get RSS/ATOM Feeds that will be automatically sent to your internet service
 
 Requirements :
 ==============
